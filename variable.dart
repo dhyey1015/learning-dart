@@ -31,6 +31,12 @@ void main() {
   print(strfirst);
   print(strsecond);
   print(strfirst + strsecond);
+  /*
+    string interpolation do this instead of 
+    strfirst = strfirst + 'yooo';
+    */
+  strfirst = "${strfirst} yooo";
+  print(strfirst);
   //end string datatype
 
   print("");
