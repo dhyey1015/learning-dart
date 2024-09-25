@@ -27,14 +27,19 @@ void main() {
   print("string datatype:");
   String strfirst = "Hello, ";
   String strsecond = "world!!";
-
+  String longtext = '''hello world
+  new world
+  easy world
+  ''';
   print(strfirst);
   print(strsecond);
+  print(longtext);
+  print("Hello \n world");
   print(strfirst + strsecond);
   /*
     string interpolation do this instead of 
     strfirst = strfirst + 'yooo';
-    */
+  */
   strfirst = "${strfirst} yooo";
   print(strfirst);
   //end string datatype
