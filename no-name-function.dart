@@ -1,4 +1,5 @@
 void main() {
+  //here we have defined a function without name no-name function and it performs something
   var noNameFn = () => "hello";
   print(noNameFn());
 }
