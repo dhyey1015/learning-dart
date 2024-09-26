@@ -1,3 +1,4 @@
+String globalVar = "Hello";
 void main() {
   print("------------------------");
 
@@ -13,6 +14,11 @@ void main() {
   print(arithmeticOps(2, 4));
 
   print("------------------------");
+
+  print("global variable");
+  globalVariable();
+
+  print("------------------------");
 }
 
 String printHelloWorld() {
@@ -25,4 +31,8 @@ double arithmeticOps(int a, int b) {
   print(a - b);
   double c = a / b;
   return c;
+}
+
+void globalVariable() {
+  print(globalVar);
 }
