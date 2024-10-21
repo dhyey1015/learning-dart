@@ -11,10 +11,10 @@ void main() {
   //how to access class thingies
   print("how to access class thingies");
   print(cookie.shape);
-  print("${Cookie().size} cm");
-  Cookie().baking();
+  print("${cookie.size} cm");
+  cookie.baking();
   final isCookieCooling = cookie.isCooling();
-  print(isCookieCooling);
+  print("is Cookie Cooling: ${isCookieCooling}");
 }
 
 class Cookie {

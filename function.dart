@@ -4,8 +4,8 @@ void main() {
 
   print("print hello world function");
   print(printHelloWorld);
-  printHelloWorld();
-  print(printHelloWorld());
+  printHelloWorld(); // called print function
+  print(printHelloWorld()); // return print
 
   print("------------------------");
 
