@@ -5,6 +5,7 @@ void main() async {
   print(response);
   final response1 = await giveAResultIn2Sec1();
   print(response1);
+  print("after future functions calls are done");
 }
 
 Future<String> giveAResultIn2Sec() async {
